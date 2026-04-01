@@ -1,0 +1,69 @@
+# =========================
+# Python
+# =========================
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Virtual environments
+
+venv/
+.env/
+.venv/
+
+# =========================
+#Terraform
+# =========================
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+
+# =========================
+# Local / Runtime files
+# =========================
+
+logs/
+*.tmp
+*.temp
+
+# =========================
+# Docker
+# =========================
+
+*.pid
+
+# =========================
+# OS / Editor
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# VSCode
+
+.vscode/
+
+# IntelliJ / JetBrains
+
+.idea/
+
+# =========================
+# Environment variables
+# =========================
+
+.env
+
+# Ignore all zip files
+*.zip
